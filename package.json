@@ -24,6 +24,9 @@
     "not dead"
   ],
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^38.1.0",
+    "@ckeditor/ckeditor5-font": "^38.1.0",
+    "@ckeditor/ckeditor5-react": "^6.1.0",
     "@fortawesome/fontawesome-svg-core": "1.2.31",
     "@fortawesome/free-brands-svg-icons": "5.15.0",
     "@fortawesome/free-regular-svg-icons": "5.15.0",
@@ -57,7 +60,7 @@
     "react-bootstrap-table-next": "3.3.5",
     "react-bootstrap-table2-filter": "^1.3.3",
     "react-bootstrap-table2-paginator": "2.1.2",
-    "react-bootstrap-table2-toolkit": "2.1.3",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
     "react-chartjs-2": "2.10.0",
     "react-datetime": "2.16.3",
     "react-dom": "16.13.1",
@@ -69,7 +72,8 @@
     "react-quill": "1.3.5",
     "react-redux": "7.2.1",
     "react-redux-toastr": "7.6.5",
-    "react-router-dom": "5.2.0",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-select": "3.1.0",
     "react-syntax-highlighter": "13.5.3",
@@ -77,8 +81,12 @@
     "reactstrap": "8.6.0",
     "reactstrap-formik": "^1.0.9",
     "redux": "4.0.5",
+    "redux-thunk": "^2.3.0",
     "smartwizard": "5.1.1",
     "yup": "^0.32.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@fortawesome/fontawesome-free": "^6.4.0"
+  }
 }

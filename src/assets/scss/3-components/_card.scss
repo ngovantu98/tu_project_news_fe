@@ -1,3 +1,61 @@
+// .card {
+//   margin-bottom: $grid-gutter-width;
+//   box-shadow: $card-shadow;
+// }
+
+// .card-header {
+//   border-bottom-width: 1px;
+// }
+
+// .card-actions {
+//   a {
+//     color: $body-color;
+//     text-decoration: none;
+//   }
+
+//   svg {
+//     width: 16px;
+//     height: 16px;
+//   }
+
+//   .dropdown {
+//     line-height: 1.4;
+//   }
+// }
+
+// .card-title {
+//   font-size: $font-size-lg;
+//   font-weight: $card-title-font-weight;
+//   color: $card-title-color;
+// }
+
+// .card-subtitle {
+//   font-weight: $font-weight-normal;
+// }
+
+// .card-table {
+//   margin-bottom: 0;
+// }
+
+// .card-table tr td:first-child,
+// .card-table tr th:first-child {
+//   padding-left: $card-spacer-x;
+// }
+
+// .card-table tr td:last-child,
+// .card-table tr th:last-child {
+//   padding-right: $card-spacer-x;
+// }
+
+// .card-img,
+// .card-img-top,
+// .card-img-bottom {
+//   @include img-fluid;
+
+//   @media all and (-ms-high-contrast:none) {
+//     height: 100%;
+//   }
+// }
 .card {
   margin-bottom: $grid-gutter-width;
   box-shadow: $card-shadow;
@@ -33,6 +91,73 @@
   font-weight: $font-weight-normal;
 }
 
+.tieude{
+  font-size:40px;
+  text-align:center;
+  font-weight: bold;
+
+}
+
+.tieude2{
+  font-size:18px;
+  text-align:center;
+  font-style: italic;
+  color: green;
+
+}
+
+.tieude3{
+  font-size:30px;
+  text-align:center;
+  font-weight: bold;
+
+}
+
+.name{
+  font-size:20px;
+  font-weight: bold;
+  font-family:serif;
+  font-weight: 600;
+
+}
+
+.departurePlace{
+  font-size:15px;
+  font-weight: bold;
+  font-family:serif;
+}
+
+.time{
+  font-size:15px;
+  font-family:serif;
+}
+
+.price{
+  font-size:20px;
+  font-family:serif;
+  color: red;
+}
+
+.emptySeat{
+  font-size:18px;
+  font-family:serif;
+  font-weight: bold;
+  color: red;
+}
+
+.describe{
+  font-size:17px;
+  font-weight: bold;
+  font-family:serif;
+}
+
+.tourImage{
+  width:504.98px;
+  height:310.203px;
+}
+
+
+
 .card-table {
   margin-bottom: 0;
 }
@@ -56,3 +181,154 @@
     height: 100%;
   }
 }
+
+
+
+
+
+
+//trip
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 300px;
+  
+
+	box-sizing: border-box;
+	padding: var(--gap);
+
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  border-radius:2%;
+}
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+
+.title{
+	text-align: center;
+  font-family: Comic;
+  font-size: 35px;
+  color: black;
+}
+
+.title1{
+	text-align: center;
+  font-family: Comic;
+  font-size: 35px;
+  color: navy;
+  font-weight:600;
+}
+
+.nd{
+  font-family: Comic;
+  font-size: 20px;
+  color: navy;
+}
+.nd5{
+  font-family: Comic;
+  font-size: 15px;
+  color: navy;
+}
+.nd2{
+  font-family: Comic;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+}
+
+.nd1{
+  font-family: Comic;
+  font-size: 20px;
+  color: navy;
+}
+
+.nd3{
+  font-family: Comic;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+}
+
+.box-order{
+  background-color:WhiteSmoke;
+}
+.col-md-7{
+  background-color:WhiteSmoke;
+}
+.booking{
+  text-align: right;
+  padding:16px;
+  
+}
+.nameTrip{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+
+}
+
+
+.detailTour{
+  font-family: Comic;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+}
+
+.styled-table {
+  margin: 25px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  min-width: 600px;
+  background-color:WhiteSmoke;
+ 
+}
+
+.price-table{
+  
+  font-family: Comic;
+  font-size: 25px;
+  color: black;
+  font-weight:300;
+}
+
+.anh1{
+  width: 1155px;
+  height: 535px;
+}
+
+.schedule{
+  font-family: Comic;
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+  font-weight: 300;
+  text-indent: 30px;
+ 
+  
+}
+
+.nd10{
+  font-family: Comic;
+  font-size: 30px;
+  color: navy;
+  font-weight: 400;
+}
+

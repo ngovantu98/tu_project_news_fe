@@ -113,6 +113,9 @@ const Calendar = async(() => import("../pages/calendar/Calendar"));
 const VectorMaps = async(() => import("../pages/maps/VectorMaps"));
 const GoogleMaps = async(() => import("../pages/maps/GoogleMaps"));
 
+
+// News
+const News = async(() => import("../pages/news/News"));
 // groups
 const Group = async(() => import("../pages/group/Group"));
 
@@ -163,9 +166,18 @@ const dashboardRoutes = {
   ]
 };
 
+const newsRoutes = {
+  path: "/newss",
+  name: "News",
+  icon: ListIcon,
+  component: News,
+  children: null
+};
+
+
 const groupRoutes = {
   path: "/groups",
-  name: "Group Management",
+  name: "Tin Tức Dân Trí",
   icon: ListIcon,
   component: withAuth(Group),
   children: null
@@ -608,6 +620,7 @@ const SettingsRoutes = {
 // Dashboard specific routes
 export const dashboard = [
   dashboardRoutes,
+  newsRoutes,
   groupRoutes,
   pageRoutes,
   layoutRoutes,
@@ -636,19 +649,20 @@ export const page = [authRoutes];
 // All routes
 export default [
   dashboardRoutes,
+  newsRoutes,
   groupRoutes,
-  // pageRoutes,
-  // authRoutes,
-  // layoutRoutes,
-  // documentationRoutes,
-  // uiRoutes,
-  // iconRoutes,
-  // formRoutes,
-  // tableRoutes,
-  // formPluginsRoutes,
-  // advancedTablesRoutes,
-  // chartRoutes,
-  // notificationsRoutes,
-  // mapRoutes,
-  // calendarRoutes
+   pageRoutes,
+  authRoutes,
+   layoutRoutes,
+   documentationRoutes,
+   uiRoutes,
+   iconRoutes,
+   formRoutes,
+   tableRoutes,
+formPluginsRoutes,
+   advancedTablesRoutes,
+   chartRoutes,
+   notificationsRoutes,
+   mapRoutes,
+   calendarRoutes
 ];

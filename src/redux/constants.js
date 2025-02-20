@@ -21,3 +21,6 @@ export const USER_LOGIN_INFO = "USER_LOGIN_INFO";
 // group
 export const GET_LIST_GROUP = "GET_LIST_GROUP";
 export const GET_LIST_GROUP_SELECTED_ROWS = "GET_LIST_GROUP_SELECTED_ROWS";
+
+//news
+export const LIST_NEWS = "TOKEN_INFO";

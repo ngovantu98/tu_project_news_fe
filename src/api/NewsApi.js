@@ -30,9 +30,9 @@ const getAll = async () => {
 //     return Api.post(url, body);
 // };
 
-// const getByID = (id) => {
-//     return Api.get(`${url}/${id}`);
-// };
+const getByID = (id) => {
+    return Api.get(`${url}/${id}`);
+};
 
 // const update = (id, name, totalMember) => {
 //     const body = {
@@ -47,5 +47,5 @@ const getAll = async () => {
 // };
 
 // export
-const api = { getAll }
+const api = { getAll,getByID }
 export default api;

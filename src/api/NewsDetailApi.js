@@ -29,10 +29,10 @@ const getAll = () => {
 //     return Api.post(url, body);
 // };
 
-// const getByID = (id) => {
-//     console.log(id);
-//     return Api.get(`${url1}/${id}`);
-// };
+const getByID = (id) => {
+    console.log(id);
+    return Api.get(`${url1}/${id}`);
+};
 
 // const update = (id, name, totalMember) => {
 //     const body = {
@@ -47,5 +47,5 @@ const getAll = () => {
 // };
 
 // export
-const api = { getAll }
+const api = { getAll,getByID }
 export default api;
